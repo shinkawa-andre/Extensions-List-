@@ -1,0 +1,75 @@
+@use '../variables' as *;
+
+
+
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 67.5vw;
+    height: 3rem;
+    padding-bottom: 30px;
+    padding-top: 60px;
+
+    .divTitle {
+        display: flex;
+        align-items: center;
+
+        .title {
+            font-size: 1.4rem;
+            color: $text-color;
+        }
+
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 12vw;
+      
+
+        #allBtn {
+            width: 35px;
+            height: 25px;
+            border-radius: 15px;
+            border: none;
+            color: $text-color;
+            background-color: $btn-background;
+
+            &.active {
+                color: $secondary-color;
+                background-color: $btn-active-background;
+            }
+        }
+
+        #activeBtn {
+            width: 50px;
+            height: 25px;
+            border-radius: 15px;
+            border: none;
+            color: $text-color;
+            background-color: $btn-background;
+
+            &.active {
+                color: $secondary-color;
+                background-color: $btn-active-background;
+            }
+        }
+
+        #inactiveBtn {
+            width: 60px;
+            height: 25px;
+            border-radius: 15px;
+            border: none;
+            color: $text-color;
+            background-color: $btn-background;
+
+            &.active {
+                color: $secondary-color;
+                background-color: $btn-active-background;
+            }
+        }
+    }
+
+}

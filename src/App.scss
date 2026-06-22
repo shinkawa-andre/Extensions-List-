@@ -1,0 +1,22 @@
+@use './variables' as *;
+
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: $light-gradient;
+  padding: 2rem;
+
+  .grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 68vw;
+    gap: 10px;
+
+  }
+}

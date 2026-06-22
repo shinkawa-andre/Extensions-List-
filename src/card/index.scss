@@ -1,0 +1,59 @@
+@use '../variables' as *;
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $secondary-color;
+    border-radius: 15px;
+    max-width: 300px;
+    height: 130px;
+    padding: 10px;
+    
+
+    .cardContent{
+        display: flex;
+        
+
+        .img{
+            width: 50px;
+            height: 50px;
+        }
+        .content{
+            padding-left: 10px;
+
+            h3{
+                font-size: .9rem;
+                color: $text-color;
+            }
+            p{
+                font-size: 13px;
+                color: $text-color;
+            }
+        }
+    }
+
+    .btnCard{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        #removeBtn{
+            width: 60px;
+            height: 20px;
+            border-radius: 15px;
+            border: 1px solid $border;
+            font-size: .7rem;
+            color: $text-color;
+            background-color: $btn-background;
+
+            &:active {
+                color: $secondary-color;
+                background-color: $btn-active-background;
+            }
+        }
+    }
+}
