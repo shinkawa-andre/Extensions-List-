@@ -1,0 +1,19 @@
+:root {
+  --bg-color: #ffffff;
+  --btn-background: hsl(200, 60%, 99%);
+  --btn-active-background: hsl(3, 77%, 44%);
+  --gradient: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+  --text-color-blue: hsl(227, 75%, 14%);
+  --text-color-title: hsl(227, 75%, 14%);
+  --secondary-color: hsl(200, 60%, 99%);
+  --card-color: #f5f5f5;
+  --border: hsl(0, 0%, 78%);
+}
+
+.dark {
+  --bg-color: #121212;
+  --gradient: linear-gradient(180deg, #040918 0%, #091540 100%);
+  --text-color: #ffffff;
+  --text-color-title: hsl(200, 60%, 99%);
+  --card-color: #1e1e1e;
+}

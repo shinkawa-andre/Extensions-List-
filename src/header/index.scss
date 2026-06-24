@@ -4,9 +4,16 @@
     justify-content: space-between;
     width: 67.5vw;
     height: 3rem;
-    background-color: hsl(200, 60%, 99%);
+    background-color: var(--secondary-color);
     border-radius: 10px;
     box-shadow: 0 4px 7px rgba(0, 0, 0, 0.15);
+
+    // celular
+        @media (max-width: 375px) {
+            margin-bottom: 40px;
+            
+
+        }
 
     .extension{
         display: flex;
@@ -15,6 +22,7 @@
 
         .logo{
             width: 7rem;
+            
         }
     }
     .moon{

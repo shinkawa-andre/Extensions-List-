@@ -4,9 +4,6 @@ Projeto desenvolvido como desafio do **Frontend Mentor**.
 
 Uma interface para gerenciar extensões do navegador, permitindo visualizar, filtrar, ativar/desativar e remover extensões.
 
-## 🚀 Demonstração
-
-Ainda não foi finalizado.
 
 ## 📌 Funcionalidades
 
@@ -17,7 +14,7 @@ Ainda não foi finalizado.
   - Inactive
 - Toggle para ativar/desativar extensões
 - Remover extensões
-- Interface responsiva
+- Interface responsiva - **Mobile**: 375px
 - Estados visuais dos botões e componentes
 
 ## 🛠️ Tecnologias usadas
